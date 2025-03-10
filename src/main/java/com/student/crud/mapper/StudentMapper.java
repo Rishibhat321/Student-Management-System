@@ -6,6 +6,7 @@ import com.student.crud.entity.Student;
 public class StudentMapper {
 
     // convert jpa entity to dto and vice-versa
+    // transfer data between controller layer and view layer
 
     public static StudentDto mapToStudentDto(Student student) {
         StudentDto studentDto = new StudentDto(
